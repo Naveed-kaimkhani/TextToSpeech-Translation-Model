@@ -6,6 +6,7 @@ import torch
 
 app = Flask(__name__)
 
+
 # Initialize the tokenizer and model
 model_name = "facebook/mbart-large-50-many-to-many-mmt"
 tokenizer = MBart50TokenizerFast.from_pretrained(model_name)
